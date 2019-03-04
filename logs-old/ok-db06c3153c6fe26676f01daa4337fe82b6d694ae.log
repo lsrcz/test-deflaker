@@ -1,0 +1,129 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-core:jar:2.5.2-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.5.2-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.5.2-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-servlet:jar:2.5.2-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.5.2-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.5.2-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-standalone:jar:2.5.2-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.5.2-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.5.2-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-test-utilities:jar:2.5.2-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.5.2-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.5.2-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-servlet-integration-test:war:2.5.2-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.5.2-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.5.2-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-servlet-jpa-blog-integration-test:war:2.5.2-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.5.2-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.5.2-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-servlet-jpa-blog-archetype:maven-archetype:2.5.2-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.5.2-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.5.2-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-maven-plugin:maven-plugin:2.5.2-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.5.2-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.5.2-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja:pom:2.5.2-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.5.2-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ line 30, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Deflaker, version 1.4 loading...
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-core
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-servlet
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-standalone
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-test-utilities
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-maven-plugin
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-servlet-integration-test
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-servlet-jpa-blog-integration-test
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-servlet-jpa-blog-archetype
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ninja
+[INFO] ninja-core
+[INFO] ninja-servlet
+[INFO] ninja-standalone
+[INFO] ninja-test-utilities
+[INFO] ninja-maven-plugin
+[INFO] ninja-servlet-integration-test
+[INFO] ninja-servlet-jpa-blog-integration-test
+[INFO] ninja-servlet-jpa-blog-archetype
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ninja 2.5.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ninja-core 2.5.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ninja-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 139 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ninja-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 136 source files to /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/src/main/java/ninja/utils/XmlMapperProvider.java:[31,8] class ObjectMapperProvider is public, should be declared in a file named ObjectMapperProvider.java
+[ERROR] /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/src/main/java/ninja/Configuration.java:[36,19] cannot access ninja.utils.XmlMapperProvider
+  bad source file: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/src/main/java/ninja/utils/XmlMapperProvider.java
+    file does not contain class ninja.utils.XmlMapperProvider
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/src/main/java/ninja/scheduler/Scheduler.java:[52,22] cannot find symbol
+  symbol:   method order()
+  location: @interface ninja.lifecycle.Dispose
+[ERROR] /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/src/main/java/ninja/jpa/JpaInitializer.java:[58,22] cannot find symbol
+  symbol:   method order()
+  location: @interface ninja.lifecycle.Dispose
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] ninja .............................................. SUCCESS [  0.002 s]
+[INFO] ninja-core ......................................... FAILURE [  1.154 s]
+[INFO] ninja-servlet ...................................... SKIPPED
+[INFO] ninja-standalone ................................... SKIPPED
+[INFO] ninja-test-utilities ............................... SKIPPED
+[INFO] ninja-maven-plugin ................................. SKIPPED
+[INFO] ninja-servlet-integration-test ..................... SKIPPED
+[INFO] ninja-servlet-jpa-blog-integration-test ............ SKIPPED
+[INFO] ninja-servlet-jpa-blog-archetype ................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.324 s
+[INFO] Finished at: 2019-03-04T09:55:06+08:00
+[INFO] Final Memory: 30M/386M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project ninja-core: Compilation failure: Compilation failure:
+[ERROR] /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/src/main/java/ninja/utils/XmlMapperProvider.java:[31,8] class ObjectMapperProvider is public, should be declared in a file named ObjectMapperProvider.java
+[ERROR] /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/src/main/java/ninja/Configuration.java:[36,19] cannot access ninja.utils.XmlMapperProvider
+[ERROR] bad source file: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/src/main/java/ninja/utils/XmlMapperProvider.java
+[ERROR] file does not contain class ninja.utils.XmlMapperProvider
+[ERROR] Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+[ERROR] /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/src/main/java/ninja/scheduler/Scheduler.java:[52,22] cannot find symbol
+[ERROR] symbol:   method order()
+[ERROR] location: @interface ninja.lifecycle.Dispose
+[ERROR] /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/src/main/java/ninja/jpa/JpaInitializer.java:[58,22] cannot find symbol
+[ERROR] symbol:   method order()
+[ERROR] location: @interface ninja.lifecycle.Dispose
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :ninja-core

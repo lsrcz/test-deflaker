@@ -1,0 +1,1227 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-core:jar:2.2.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.2.1-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.2.1-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-servlet:jar:2.2.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.2.1-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.2.1-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-standalone:jar:2.2.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.2.1-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.2.1-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-test-utilities:jar:2.2.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.2.1-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.2.1-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-servlet-integration-test:war:2.2.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.2.1-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.2.1-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-servlet-jpa-blog-integration-test:war:2.2.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.2.1-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.2.1-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-servlet-jpa-blog-archetype:maven-archetype:2.2.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.2.1-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.2.1-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja-maven-plugin:maven-plugin:2.2.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.2.1-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ org.ninjaframework:ninja:2.2.1-SNAPSHOT, /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml, line 30, column 13
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.ninjaframework:ninja:pom:2.2.1-SNAPSHOT
+[WARNING] 'parent.relativePath' of POM org.ninjaframework:ninja:2.2.1-SNAPSHOT (/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/pom.xml) points at org.ninjaframework:ninja instead of org.sonatype.oss:oss-parent, please verify your project structure @ line 30, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Deflaker, version 1.4 loading...
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-core
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-servlet
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-standalone
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-test-utilities
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-maven-plugin
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-servlet-integration-test
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-servlet-jpa-blog-integration-test
+Warning: Deflaker disabling incompatible org.apache.maven.plugins:maven-enforcer-plugin from ninja-servlet-jpa-blog-archetype
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ninja
+[INFO] ninja-core
+[INFO] ninja-servlet
+[INFO] ninja-standalone
+[INFO] ninja-test-utilities
+[INFO] ninja-maven-plugin
+[INFO] ninja-servlet-integration-test
+[INFO] ninja-servlet-jpa-blog-integration-test
+[INFO] ninja-servlet-jpa-blog-archetype
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ninja 2.2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ninja-core 2.2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ninja-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 135 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ninja-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ninja-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- deflaker-maven-plugin:1.4:diff (deflaker-diff) @ ninja-core ---
+/Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/.git DIFF'ing to HEAD
+Diff'ing f8ce33953c66562c0bf282dfbb133f13e7ea9aea against: 6e95db5126e82c117eb04cc68084e5c7c7528679
+ninja/i18n/MessagesImplTest : [Edit [start=39, end=39], Edit [start=199, end=199], Edit [start=204, end=243], Edit [start=258, end=258], Edit [start=268, end=268], Edit [start=296, end=296], Edit [start=308, end=308], Edit [start=325, end=325]]
+	 Methods to watch:[]
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ninja-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ ninja-core ---
+[INFO] Surefire report directory: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/surefire-reports
+[INFO] Using configured provider org.deflaker.surefire.ReExecJunit4Provider
+[INFO] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ninja.SecureFilterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.152 sec - in ninja.SecureFilterTest
+Running ninja.cache.CacheProviderTest
+11:40:57.401 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:57.405 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:57.406 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:57.409 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:57.409 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:57.663 [main] INFO  Ninja - Using default eh cache implementation. (class ninja.cache.CacheEhCacheImpl) 
+11:40:57.680 [main] WARN  n.s.e.config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/Users/lusirui/.m2/repository/net/sf/ehcache/ehcache/2.7.4/ehcache-2.7.4.jar!/ehcache-failsafe.xml
+11:40:57.680 [main] DEBUG n.s.e.config.ConfigurationFactory - Configuring ehcache from URL: jar:file:/Users/lusirui/.m2/repository/net/sf/ehcache/ehcache/2.7.4/ehcache-2.7.4.jar!/ehcache-failsafe.xml
+11:40:57.681 [main] DEBUG n.s.e.config.ConfigurationFactory - Configuring ehcache from InputStream
+11:40:57.721 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+11:40:57.722 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+11:40:57.723 [main] DEBUG n.s.e.config.DiskStoreConfiguration - Disk Store Path: /var/folders/1v/3r59ssd5287fp3hnyzg9s2sh0000gn/T/
+11:40:57.734 [main] DEBUG net.sf.ehcache.CacheManager - Creating new CacheManager with default config
+11:40:57.737 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+11:40:57.745 [main] DEBUG n.s.e.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+11:40:57.783 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+11:40:57.783 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+11:40:57.783 [main] DEBUG n.s.e.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+11:40:57.806 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Using diskstore path /var/folders/1v/3r59ssd5287fp3hnyzg9s2sh0000gn/T
+11:40:57.806 [main] DEBUG net.sf.ehcache.DiskStorePathManager - Holding exclusive lock on /var/folders/1v/3r59ssd5287fp3hnyzg9s2sh0000gn/T/.ehcache-diskstore.lock
+11:40:57.806 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file ninja.index
+11:40:57.811 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Matching data file missing (or empty) for index file. Deleting index file /var/folders/1v/3r59ssd5287fp3hnyzg9s2sh0000gn/T/ninja.index
+11:40:57.812 [main] DEBUG n.s.e.store.disk.DiskStorageFactory - Failed to delete file ninja.index
+11:40:57.843 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+11:40:57.844 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+11:40:57.845 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+11:40:57.845 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: REMOTE_SIZE
+11:40:57.846 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+11:40:57.853 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_GET
+11:40:57.854 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_PUT
+11:40:57.854 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Operation Statistic: OFFHEAP_REMOVE
+11:40:57.855 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_COMMIT
+11:40:57.855 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_ROLLBACK
+11:40:57.855 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Operation Statistic: XA_RECOVERY
+11:40:57.856 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Operation Statistic: CLUSTER_EVENT
+11:40:57.856 [main] DEBUG n.s.e.s.e.ExtendedStatisticsImpl - Mocking Operation Statistic: NONSTOP
+11:40:57.859 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: ninja
+11:40:57.859 [main] DEBUG n.s.e.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'ninja'.
+11:40:57.860 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:57.860 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:57.860 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:57.860 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:57.860 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:57.872 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:57.872 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:57.873 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:57.873 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:57.873 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:57.883 [main] INFO  Ninja - Using the class ninja.cache.CacheMemcachedImpl as implementation for caching.
+11:40:57.931 [main] INFO  n.spy.memcached.MemcachedConnection - Added {QA sa=/127.0.0.1:1234, #Rops=0, #Wops=0, #iq=0, topRop=null, topWop=null, toWrite=0, interested=0} to connect queue
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.605 sec - in ninja.cache.CacheProviderTest
+Running ninja.AssetsControllerTest
+11:40:57.933 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] DEBUG n.spy.memcached.MemcachedConnection - Done dealing with queue.
+11:40:57.933 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] DEBUG n.spy.memcached.MemcachedConnection - Selecting with delay of 0ms
+11:40:57.933 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] DEBUG n.spy.memcached.MemcachedConnection - Checked the selectors.
+11:40:57.936 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] DEBUG n.spy.memcached.MemcachedConnection - Selected 1, selected 1 keys
+11:40:57.936 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] DEBUG n.spy.memcached.MemcachedConnection - Handling IO for:  sun.nio.ch.SelectionKeyImpl@2c78d320 (r=false, w=false, c=true, op={QA sa=/127.0.0.1:1234, #Rops=0, #Wops=0, #iq=0, topRop=null, topWop=null, toWrite=0, interested=8})
+11:40:57.936 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] INFO  n.spy.memcached.MemcachedConnection - Connection state changed for sun.nio.ch.SelectionKeyImpl@2c78d320
+11:40:57.945 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] INFO  n.spy.memcached.MemcachedConnection - Reconnecting due to failure to connect to {QA sa=/127.0.0.1:1234, #Rops=0, #Wops=0, #iq=0, topRop=null, topWop=null, toWrite=0, interested=0}
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_162]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_162]
+	at net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:422) [spymemcached-2.9.0.jar:2.9.0]
+	at net.spy.memcached.MemcachedConnection.handleIO(MemcachedConnection.java:260) [spymemcached-2.9.0.jar:2.9.0]
+	at net.spy.memcached.MemcachedConnection.run(MemcachedConnection.java:940) [spymemcached-2.9.0.jar:2.9.0]
+11:40:57.945 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] WARN  n.spy.memcached.MemcachedConnection - Closing, and reopening {QA sa=/127.0.0.1:1234, #Rops=0, #Wops=0, #iq=0, topRop=null, topWop=null, toWrite=0, interested=0}, attempt 1.
+11:40:57.946 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] DEBUG n.s.m.p.ascii.AsciiMemcachedNodeImpl - Selection key is not valid.
+11:40:57.947 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] DEBUG n.spy.memcached.MemcachedConnection - Done dealing with queue.
+11:40:57.947 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] DEBUG n.spy.memcached.MemcachedConnection - Selecting with delay of 3998ms
+11:40:57.947 [Memcached IO over {MemcachedConnection to /127.0.0.1:1234}] DEBUG n.spy.memcached.MemcachedConnection - Checked the selectors.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in ninja.AssetsControllerTest
+Running ninja.CookieTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in ninja.CookieTest
+Running ninja.ResultsTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in ninja.ResultsTest
+Running ninja.ResultTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec - in ninja.ResultTest
+Running ninja.template.TemplateEngineJsonPTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec - in ninja.template.TemplateEngineJsonPTest
+Running ninja.template.TemplateEngineManagerImplTest
+11:40:58.098 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.099 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.099 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.099 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.099 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.108 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:58.108 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:58.108 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:58.108 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:58.108 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:58.109 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:58.109 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:58.109 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:58.109 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:58.109 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:58.110 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:58.110 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:58.110 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:58.110 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:58.110 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:58.110 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:58.110 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:58.110 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:58.111 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:58.111 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:58.111 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:58.111 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:58.111 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:58.112 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:58.170 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.170 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.170 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.170 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.170 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.173 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:58.173 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:58.173 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:58.173 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:58.173 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:58.173 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:58.174 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:58.174 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:58.174 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:58.174 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:58.174 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:58.174 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:58.174 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:58.174 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:58.174 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:58.175 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:58.175 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:58.175 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:58.175 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:58.175 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:58.175 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:58.175 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:58.175 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:58.175 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:58.177 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.177 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.177 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.177 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.177 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.181 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:58.181 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:58.181 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:58.181 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:58.181 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:58.181 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:58.181 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:58.181 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:58.182 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:58.182 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:58.182 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:58.182 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:58.182 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:58.182 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:58.182 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:58.182 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:58.182 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:58.182 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:58.182 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:58.182 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:58.183 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:58.183 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:58.183 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:58.183 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:58.185 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.185 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.185 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.185 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.185 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.188 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:58.188 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:58.188 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:58.188 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:58.188 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:58.189 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:58.189 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:58.189 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:58.189 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:58.189 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:58.189 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:58.189 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:58.189 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:58.190 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:58.190 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:58.190 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:58.190 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:58.190 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:58.190 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:58.190 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:58.190 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:58.190 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:58.190 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:58.191 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:58.193 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.193 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.193 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.193 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.193 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.197 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:58.197 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:58.197 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:58.197 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:58.197 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:58.198 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:58.198 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:58.198 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:58.198 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:58.198 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:58.198 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:58.198 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:58.198 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:58.199 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:58.199 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:58.199 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:58.199 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:58.199 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:58.199 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:58.199 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:58.200 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:58.200 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:58.200 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:58.200 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:58.202 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.202 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.202 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.202 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.202 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.206 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:58.206 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:58.206 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:58.206 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:58.206 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:58.207 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:58.207 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:58.207 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:58.207 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:58.207 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:58.207 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:58.207 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:58.207 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:58.208 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:58.208 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:58.208 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:58.208 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:58.208 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:58.208 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:58.208 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:58.209 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:58.209 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:58.209 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:58.209 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:58.211 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.211 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.211 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.211 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.211 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.214 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:58.214 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:58.214 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:58.214 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:58.214 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:58.214 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:58.214 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:58.214 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:58.215 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:58.215 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:58.215 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:58.215 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:58.215 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:58.215 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:58.215 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:58.216 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:58.216 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:58.216 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:58.216 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:58.216 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:58.216 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:58.216 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:58.216 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:58.217 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 sec - in ninja.template.TemplateEngineManagerImplTest
+Running ninja.lifecycle.LifecycleSupportTest
+11:40:58.222 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.222 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+11:40:58.223 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Stopping Ninja application...
+11:40:58.224 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application stopped in 1ms
+11:40:58.227 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.228 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 1ms
+11:40:58.228 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Stopping Ninja application...
+11:40:58.228 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application stopped in 0ms
+11:40:58.230 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.230 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+11:40:58.232 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.232 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+11:40:58.234 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.234 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+11:40:58.235 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.235 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+11:40:58.236 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.236 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+11:40:58.236 [main] WARN  ninja.lifecycle.LifecycleRegister - Startable instantiated after the application has been started: ninja.lifecycle.LifecycleSupportTest$MockService@dcfda20
+11:40:58.239 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.239 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+11:40:58.240 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.240 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+11:40:58.242 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.242 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in ninja.lifecycle.LifecycleSupportTest
+Running ninja.scheduler.SchedulerSupportTest
+11:40:58.247 [Thread-6] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.247 [Thread-6] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+11:40:58.250 [Thread-6] INFO  ninja.scheduler.Scheduler - Scheduling method doSomething on ninja.scheduler.SchedulerSupportTest$MockScheduled@203fc10b to be run every 1000000000 MILLISECONDS after 1000000000 MILLISECONDS
+11:40:58.262 [pool-1-thread-1] DEBUG ninja.scheduler.Scheduler - Running scheduled method doSomething on ninja.scheduler.SchedulerSupportTest$MockScheduled@203fc10b
+11:40:58.263 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Stopping Ninja application...
+11:40:58.263 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application stopped in 0ms
+11:40:58.265 [Thread-7] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.265 [Thread-7] INFO  ninja.scheduler.Scheduler - Scheduling method doSomething on ninja.scheduler.SchedulerSupportTest$MockScheduled@1e9e5ede to be run every 1000000000 MILLISECONDS after 1000000000 MILLISECONDS
+11:40:58.265 [Thread-7] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 0ms
+11:40:58.280 [pool-2-thread-1] DEBUG ninja.scheduler.Scheduler - Running scheduled method doSomething on ninja.scheduler.SchedulerSupportTest$MockScheduled@1e9e5ede
+11:40:58.280 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Stopping Ninja application...
+11:40:58.281 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application stopped in 1ms
+11:40:58.391 [Thread-8] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.391 [Thread-8] INFO  ninja.scheduler.Scheduler - Scheduling method doSomething on ninja.scheduler.SchedulerSupportTest$MockPropertyScheduled@4292ca10 to be run every 10 MILLISECONDS after 10 MILLISECONDS
+11:40:58.392 [Thread-8] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application started in 1ms
+11:40:58.429 [pool-3-thread-1] DEBUG ninja.scheduler.Scheduler - Running scheduled method doSomething on ninja.scheduler.SchedulerSupportTest$MockPropertyScheduled@4292ca10
+11:40:58.430 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Stopping Ninja application...
+11:40:58.430 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application stopped in 0ms
+11:40:58.433 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Starting Ninja application...
+11:40:58.435 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Stopping Ninja application...
+11:40:58.436 [main] INFO  ninja.lifecycle.LifecycleServiceImpl - Ninja application stopped in 1ms
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 sec - in ninja.scheduler.SchedulerSupportTest
+Running ninja.jpa.JpaInitializerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in ninja.jpa.JpaInitializerTest
+Running ninja.utils.SwissKnifeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in ninja.utils.SwissKnifeTest
+Running ninja.utils.CryptoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 sec - in ninja.utils.CryptoTest
+Running ninja.utils.NinjaPropertiesImplTest
+11:40:58.626 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.626 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.626 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.626 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.626 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.627 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/heroku.conf
+11:40:58.627 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/heroku.conf
+11:40:58.627 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/heroku.conf at null: no protocol: conf/heroku.conf
+11:40:58.627 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/heroku.conf)
+11:40:58.627 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/heroku.conf
+11:40:58.628 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.628 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.628 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.628 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.628 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.629 [main] ERROR ninja.utils.NinjaPropertiesImpl - Key a_propert_that_is_not_in_the_file does not exist. Please include it in your application.conf. Otherwise this app will not work
+11:40:58.629 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.629 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.629 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.630 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.630 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.630 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.630 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.631 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.631 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.631 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.631 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/non_existing.conf
+11:40:58.631 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/non_existing.conf
+11:40:58.631 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/non_existing.conf at null: no protocol: conf/non_existing.conf
+11:40:58.632 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/non_existing.conf (not a bad thing necessarily, but I am returing null)
+11:40:58.632 [main] ERROR ninja.utils.NinjaPropertiesImpl - Ninja was told to use an external configuration
+ ninja.external.configuration = conf/non_existing.conf 
+.But the corresponding file cannot be found.
+ Make sure it is visible to this application and on the classpath.
+11:40:58.632 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.632 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.632 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.633 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.633 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.635 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.635 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.635 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.635 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.635 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.637 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.637 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.637 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.637 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.637 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.638 [main] ERROR ninja.utils.NinjaPropertiesImpl - Key integerNotValid does not exist. Please include it in your application.conf. Otherwise this app will not work
+11:40:58.638 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.638 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.638 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.638 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.638 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.646 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.646 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.646 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.646 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.646 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.647 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.647 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.647 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.647 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.647 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.648 [main] ERROR ninja.utils.NinjaPropertiesImpl - Key booleanNotValid does not exist. Please include it in your application.conf. Otherwise this app will not work
+11:40:58.648 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.648 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.648 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.648 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.648 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.649 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.649 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.649 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.649 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.649 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.650 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.650 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.650 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.650 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.650 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.651 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.651 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.651 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.651 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.651 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.652 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.652 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.652 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.653 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.653 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.653 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.653 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.653 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.653 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.653 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.654 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.654 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.654 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.654 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.654 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.655 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/application.conf
+11:40:58.655 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/application.conf
+11:40:58.655 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/application.conf at null: no protocol: conf/application.conf
+11:40:58.655 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/application.conf)
+11:40:58.655 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/application.conf
+11:40:58.655 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/heroku.conf
+11:40:58.655 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/heroku.conf
+11:40:58.655 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/heroku.conf at null: no protocol: conf/heroku.conf
+11:40:58.656 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/heroku.conf)
+11:40:58.656 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/heroku.conf
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in ninja.utils.NinjaPropertiesImplTest
+Running ninja.utils.HttpHeaderUtilsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in ninja.utils.HttpHeaderUtilsTest
+Running ninja.utils.CookieDataCodecTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in ninja.utils.CookieDataCodecTest
+Running ninja.utils.MimeTypesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in ninja.utils.MimeTypesTest
+Running ninja.utils.NinjaConstantTest
+11:40:58.664 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/all_constants.conf
+11:40:58.665 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/all_constants.conf
+11:40:58.665 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/all_constants.conf at null: no protocol: conf/all_constants.conf
+11:40:58.665 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/all_constants.conf)
+11:40:58.665 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/all_constants.conf
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in ninja.utils.NinjaConstantTest
+Running ninja.utils.TimeUtilTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in ninja.utils.TimeUtilTest
+Running ninja.utils.HttpCacheToolkitImplTest
+11:40:58.722 [main] WARN  ninja.utils.HttpCacheToolkitImpl - Can't parse HTTP date
+java.lang.IllegalArgumentException: Invalid format: "STRANGE_TIMESTAMP"
+	at org.joda.time.format.DateTimeFormatter.parseDateTime(DateTimeFormatter.java:871) ~[joda-time-2.2.jar:2.2]
+	at ninja.utils.DateUtil.parseHttpDateFormatToDateTime(DateUtil.java:94) ~[classes/:na]
+	at ninja.utils.DateUtil.parseHttpDateFormat(DateUtil.java:80) ~[classes/:na]
+	at ninja.utils.HttpCacheToolkitImpl.isModified(HttpCacheToolkitImpl.java:66) ~[classes/:na]
+	at ninja.utils.HttpCacheToolkitImplTest.testIsModified(HttpCacheToolkitImplTest.java:97) [test-classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_162]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_162]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_162]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_162]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [junit-4.11.jar:na]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.11.jar:na]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [junit-4.11.jar:na]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [junit-4.11.jar:na]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [junit-4.11.jar:na]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:na]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:na]
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37) [mockito-all-1.9.5.jar:na]
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62) [mockito-all-1.9.5.jar:na]
+	at org.deflaker.surefire.ReExecJunit4Provider.execute(ReExecJunit4Provider.java:430) [deflaker-surefire-reexec-junit4-2.18.4.jar:2.18.4]
+	at org.deflaker.surefire.ReExecJunit4Provider.executeWithRerun(ReExecJunit4Provider.java:237) [deflaker-surefire-reexec-junit4-2.18.4.jar:2.18.4]
+	at org.deflaker.surefire.ReExecJunit4Provider.executeTestSet(ReExecJunit4Provider.java:217) [deflaker-surefire-reexec-junit4-2.18.4.jar:2.18.4]
+	at org.deflaker.surefire.ReExecJunit4Provider.invoke(ReExecJunit4Provider.java:192) [deflaker-surefire-reexec-junit4-2.18.4.jar:2.18.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203) [surefire-booter-2.18.jar:2.18]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155) [surefire-booter-2.18.jar:2.18]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103) [surefire-booter-2.18.jar:2.18]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec - in ninja.utils.HttpCacheToolkitImplTest
+Running ninja.utils.DateUtilImplTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in ninja.utils.DateUtilImplTest
+Running ninja.utils.SecretGeneratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in ninja.utils.SecretGeneratorTest
+Running ninja.utils.NinjaPropertiesImplToolTest
+11:40:58.736 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to /tmp/ninja-test-a3755de1-3a22-4872-b16c-4a5658dd719d/src/main/java/conf/application.conf
+11:40:58.737 [main] INFO  ninja.utils.NinjaPropertiesImplTool - Key application.secret not set. Generating new one and setting in conf/application.conf.
+11:40:58.758 [main] ERROR ninja.utils.NinjaPropertiesImplTool - Fatal error. Key application.secret not set. Please fix that.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in ninja.utils.NinjaPropertiesImplToolTest
+Running ninja.utils.NinjaModeHelperTest
+11:40:58.760 [main] INFO  ninja.utils.NinjaModeHelper - Ninja is running in dev mode.
+11:40:58.760 [main] INFO  ninja.utils.NinjaModeHelper - Ninja is running in dev mode.
+11:40:58.760 [main] INFO  ninja.utils.NinjaModeHelper - Ninja is running in test mode.
+11:40:58.760 [main] INFO  ninja.utils.NinjaModeHelper - Ninja is running in test mode.
+11:40:58.760 [main] INFO  ninja.utils.NinjaModeHelper - Ninja is running in prod mode.
+11:40:58.761 [main] INFO  ninja.utils.NinjaModeHelper - Ninja is running in prod mode.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in ninja.utils.NinjaModeHelperTest
+Running ninja.utils.ResultHandlerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec - in ninja.utils.ResultHandlerTest
+Running ninja.RouteBuilderImplTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in ninja.RouteBuilderImplTest
+Running ninja.params.ControllerMethodInvokerTest
+11:40:58.863 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+11:40:58.863 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.1.Final
+11:40:58.870 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+11:40:58.871 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+11:40:58.872 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+11:40:58.875 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+11:40:58.971 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - ValidationMessages not found.
+11:40:58.973 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+11:40:58.978 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - ValidationMessages not found.
+11:40:58.978 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+11:40:58.979 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - ValidationMessages not found.
+11:40:58.979 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+11:40:59.021 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+11:40:59.021 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+11:40:59.021 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+11:40:59.022 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+11:40:59.024 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - ValidationMessages not found.
+11:40:59.024 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+11:40:59.056 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+11:40:59.057 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+11:40:59.057 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+11:40:59.057 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+11:40:59.058 [__DEFAULT__] DEBUG net.sf.ehcache.util.UpdateChecker - Update check failed: 
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://www.terracotta.org/kit/reflector?pageID=update.properties&patch=UNKNOWN&tc-product=ehcache-core+2.7.4&tc-version=2.7.4&uptime-secs=1&kidID=ehcache.default&jvm-version=1.8.0_162&os-name=Mac+OS+X&id=176207915&source=ehcache-core&jvm-name=Java+HotSpot%28TM%29+64-Bit+Server+VM&platform=x86_64
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894) ~[na:1.8.0_162]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492) ~[na:1.8.0_162]
+	at net.sf.ehcache.util.UpdateChecker.getUpdateProperties(UpdateChecker.java:153) [ehcache-2.7.4.jar:2.7.4]
+	at net.sf.ehcache.util.UpdateChecker.doCheck(UpdateChecker.java:117) [ehcache-2.7.4.jar:2.7.4]
+	at net.sf.ehcache.util.UpdateChecker.checkForUpdate(UpdateChecker.java:104) [ehcache-2.7.4.jar:2.7.4]
+	at net.sf.ehcache.util.UpdateChecker.run(UpdateChecker.java:95) [ehcache-2.7.4.jar:2.7.4]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_162]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_162]
+11:40:59.059 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - ValidationMessages not found.
+11:40:59.059 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+11:40:59.060 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - ValidationMessages not found.
+11:40:59.060 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+11:40:59.062 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+11:40:59.062 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+11:40:59.062 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+11:40:59.063 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+11:40:59.067 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+11:40:59.068 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+11:40:59.068 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+11:40:59.068 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+11:40:59.069 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - ValidationMessages not found.
+11:40:59.070 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+11:40:59.072 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+11:40:59.072 [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+11:40:59.072 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+11:40:59.073 [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+11:40:59.075 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - ValidationMessages not found.
+11:40:59.076 [main] DEBUG o.h.v.r.PlatformResourceBundleLocator - org.hibernate.validator.ValidationMessages found.
+Tests run: 55, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.271 sec - in ninja.params.ControllerMethodInvokerTest
+Running ninja.i18n.LangImplTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in ninja.i18n.LangImplTest
+Running ninja.i18n.MessagesImplTest
+11:40:59.085 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:59.085 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:59.085 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:59.085 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:59.085 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:59.085 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:59.086 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:59.086 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:59.086 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:59.086 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:59.086 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:59.086 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:59.086 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:59.086 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:59.086 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:59.087 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:59.087 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:59.087 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:59.087 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:59.087 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:59.088 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:59.088 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:59.088 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:59.088 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:59.091 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:59.091 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:59.091 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:59.092 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:59.092 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:59.092 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:59.092 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:59.092 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:59.092 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:59.092 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:59.093 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:59.093 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:59.093 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:59.093 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:59.093 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:59.093 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:59.093 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:59.093 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:59.094 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:59.094 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:59.094 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:59.094 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:59.094 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:59.094 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:59.096 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:59.096 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:59.097 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:59.097 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:59.097 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:59.097 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:59.097 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:59.097 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:59.098 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:59.098 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:59.098 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:59.098 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:59.098 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:59.098 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:59.098 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:59.099 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:59.099 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:59.099 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:59.099 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:59.099 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:59.099 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:59.099 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:59.099 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:59.100 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:59.103 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:59.103 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:59.103 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:59.104 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:59.104 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:59.104 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:59.104 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:59.104 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:59.104 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:59.104 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:59.105 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:59.105 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:59.105 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:59.105 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:59.105 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:59.105 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:59.105 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:59.105 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:59.105 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:59.106 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:59.106 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:59.106 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:59.106 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:59.106 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:59.109 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:59.109 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:59.109 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:59.109 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:59.109 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:59.109 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:59.109 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:59.109 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:59.110 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:59.110 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:59.110 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:59.110 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:59.110 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:59.110 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:59.110 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:59.111 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:59.111 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:59.111 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:59.111 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:59.111 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:59.111 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:59.111 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:59.111 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:59.112 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:59.113 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:59.113 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:59.113 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:59.113 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:59.113 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:59.113 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:59.113 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:59.113 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:59.114 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:59.114 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:59.114 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:59.114 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:59.114 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:59.114 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:59.114 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:59.114 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:59.114 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:59.114 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:59.114 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:59.114 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:59.115 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:59.115 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:59.115 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:59.115 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:59.116 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:59.116 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:59.116 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:59.116 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:59.116 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:59.117 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:59.117 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:59.117 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:59.117 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:59.117 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:59.117 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:59.117 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:59.117 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:59.117 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:59.117 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:59.118 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:59.118 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:59.118 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:59.118 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:59.118 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:59.118 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:59.118 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:59.118 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:59.119 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:59.120 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:59.120 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:59.120 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:59.120 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:59.120 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:59.121 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:59.121 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:59.121 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:59.121 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:59.121 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:59.121 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:59.121 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:59.121 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:59.121 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:59.121 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:59.122 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:59.122 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:59.122 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:59.122 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:59.122 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:59.122 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:59.122 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:59.122 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:59.123 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+11:40:59.124 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages.properties
+11:40:59.124 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages.properties
+11:40:59.124 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages.properties at null: no protocol: conf/messages.properties
+11:40:59.124 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages.properties)
+11:40:59.124 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages.properties
+11:40:59.125 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_en.properties
+11:40:59.125 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_en.properties
+11:40:59.125 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_en.properties at null: no protocol: conf/messages_en.properties
+11:40:59.125 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_en.properties)
+11:40:59.125 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_en.properties
+11:40:59.125 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_de.properties
+11:40:59.125 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_de.properties
+11:40:59.125 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_de.properties at null: no protocol: conf/messages_de.properties
+11:40:59.125 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_de.properties)
+11:40:59.125 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_de.properties
+11:40:59.126 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr-FR.properties
+11:40:59.126 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr-FR.properties
+11:40:59.126 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr-FR.properties at null: no protocol: conf/messages_fr-FR.properties
+11:40:59.126 [main] DEBUG o.a.c.c.ConfigurationUtils - Loading configuration from the context classpath (conf/messages_fr-FR.properties)
+11:40:59.126 [main] DEBUG o.a.c.c.PropertiesConfiguration - Base path set to file:///Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/test-classes/conf/messages_fr-FR.properties
+11:40:59.126 [main] DEBUG o.a.c.c.PropertiesConfiguration - FileName set to conf/messages_fr.properties
+11:40:59.126 [main] DEBUG o.a.c.c.ConfigurationUtils - ConfigurationUtils.locate(): base is null, name is conf/messages_fr.properties
+11:40:59.126 [main] DEBUG o.a.c.c.DefaultFileSystem - Could not locate file conf/messages_fr.properties at null: no protocol: conf/messages_fr.properties
+11:40:59.127 [main] INFO  ninja.utils.SwissKnife - Could not load file conf/messages_fr.properties (not a bad thing necessarily, but I am returing null)
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec - in ninja.i18n.MessagesImplTest
+Running ninja.postoffice.commonsmail.CommonsMailHelperImplTest
+DEBUG: JavaMail version 1.4.5
+DEBUG: successfully loaded resource: /META-INF/javamail.default.providers
+DEBUG: Tables of loaded providers
+DEBUG: Providers Listed By Class Name: {com.sun.mail.smtp.SMTPSSLTransport=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], com.sun.mail.smtp.SMTPTransport=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc], com.sun.mail.imap.IMAPSSLStore=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3SSLStore=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], com.sun.mail.imap.IMAPStore=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], com.sun.mail.pop3.POP3Store=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc]}
+DEBUG: Providers Listed By Protocol: {imaps=javax.mail.Provider[STORE,imaps,com.sun.mail.imap.IMAPSSLStore,Sun Microsystems, Inc], imap=javax.mail.Provider[STORE,imap,com.sun.mail.imap.IMAPStore,Sun Microsystems, Inc], smtps=javax.mail.Provider[TRANSPORT,smtps,com.sun.mail.smtp.SMTPSSLTransport,Sun Microsystems, Inc], pop3=javax.mail.Provider[STORE,pop3,com.sun.mail.pop3.POP3Store,Sun Microsystems, Inc], pop3s=javax.mail.Provider[STORE,pop3s,com.sun.mail.pop3.POP3SSLStore,Sun Microsystems, Inc], smtp=javax.mail.Provider[TRANSPORT,smtp,com.sun.mail.smtp.SMTPTransport,Sun Microsystems, Inc]}
+DEBUG: successfully loaded resource: /META-INF/javamail.default.address.map
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec - in ninja.postoffice.commonsmail.CommonsMailHelperImplTest
+Running ninja.postoffice.commonsmail.CommonsMailHelperImplGreenmailIntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec - in ninja.postoffice.commonsmail.CommonsMailHelperImplGreenmailIntegrationTest
+Running ninja.postoffice.mock.PostofficeMockImplTest
+11:40:59.247 [main] INFO  n.postoffice.mock.PostofficeMockImpl - --------------------------------------------------------
+11:40:59.247 [main] INFO  n.postoffice.mock.PostofficeMockImpl - Mock mailer received send email request
+11:40:59.247 [main] INFO  n.postoffice.mock.PostofficeMockImpl - --------------------------------------------------------
+11:40:59.247 [main] INFO  n.postoffice.mock.PostofficeMockImpl - Subject : first mail
+11:40:59.247 [main] INFO  n.postoffice.mock.PostofficeMockImpl - From    : from@localhost
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - To      : to@localhost
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - ----- Html content -------------------------------------
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - null
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - ----- Text content -------------------------------------
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - simple body text
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - --------------------------------------------------------
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - --------------------------------------------------------
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - Mock mailer received send email request
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - --------------------------------------------------------
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - Subject : second mail
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - From    : from@localhost
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - To      : to@localhost
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - ----- Html content -------------------------------------
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - null
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - ----- Text content -------------------------------------
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - simple body text
+11:40:59.248 [main] INFO  n.postoffice.mock.PostofficeMockImpl - --------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in ninja.postoffice.mock.PostofficeMockImplTest
+Running ninja.postoffice.common.MailImplUnitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in ninja.postoffice.common.MailImplUnitTest
+Running ninja.session.FlashCookieTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in ninja.session.FlashCookieTest
+Running ninja.session.SessionCookieTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in ninja.session.SessionCookieTest
+
+Results :
+
+
+
+
+Tests run: 239, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test-rerunfailures) @ ninja-core ---
+[INFO] Surefire report directory: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/surefire-reports-isolated-reruns
+[INFO] Using configured provider org.deflaker.surefire.ReExecJunit4Provider
+[INFO] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+
+
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- deflaker-maven-plugin:1.4:report (deflaker-report-tests) @ ninja-core ---
+[INFO] ------------------------------------------------------------------------
+[INFO] TEST DIFFCOV ANALYSIS
+[INFO] ninja-coreninja-core
+[INFO] ------------------------------------------------------------------------
+[INFO] Using covFile: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/diffcov.log
+[INFO] Using difFile: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/.diffCache
+[WARNING] Diff has gone untested: ninja/i18n/MessagesImplTest has uncovered changes [199, 204, 208, 209, 212, 213, 217, 218, 220, 223, 224, 226, 231, 232, 234, 239, 240, 242, 258, 268, 296, 308, 325]
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ninja-core ---
+[INFO] Building jar: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-core/target/ninja-core-2.2.1-SNAPSHOT.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ninja-servlet 2.2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ninja-servlet ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-servlet/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ninja-servlet ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ninja-servlet ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-servlet/src/test/resources
+[INFO] 
+[INFO] --- deflaker-maven-plugin:1.4:diff (deflaker-diff) @ ninja-servlet ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ninja-servlet ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ ninja-servlet ---
+[INFO] Surefire report directory: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-servlet/target/surefire-reports
+[INFO] Using configured provider org.deflaker.surefire.ReExecJunit4Provider
+[INFO] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ninja.servlet.ContextImplTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.281 sec - in ninja.servlet.ContextImplTest
+
+Results :
+
+
+
+
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test-rerunfailures) @ ninja-servlet ---
+[INFO] Surefire report directory: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-servlet/target/surefire-reports-isolated-reruns
+[INFO] Using configured provider org.deflaker.surefire.ReExecJunit4Provider
+[INFO] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+
+
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- deflaker-maven-plugin:1.4:report (deflaker-report-tests) @ ninja-servlet ---
+[INFO] ------------------------------------------------------------------------
+[INFO] TEST DIFFCOV ANALYSIS
+[INFO] ninja-servletninja-servlet
+[INFO] ------------------------------------------------------------------------
+[INFO] Using covFile: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-servlet/target/diffcov.log
+[INFO] Using difFile: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/.diffCache
+[WARNING] Diff has gone untested: ninja/i18n/MessagesImplTest has uncovered changes [199, 204, 208, 209, 212, 213, 217, 218, 220, 223, 224, 226, 231, 232, 234, 239, 240, 242, 258, 268, 296, 308, 325]
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ninja-servlet ---
+[INFO] Building jar: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-servlet/target/ninja-servlet-2.2.1-SNAPSHOT.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ninja-standalone 2.2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ninja-standalone ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-standalone/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ninja-standalone ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ninja-standalone ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-standalone/src/test/resources
+[INFO] 
+[INFO] --- deflaker-maven-plugin:1.4:diff (deflaker-diff) @ ninja-standalone ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ninja-standalone ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ ninja-standalone ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test-rerunfailures) @ ninja-standalone ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- deflaker-maven-plugin:1.4:report (deflaker-report-tests) @ ninja-standalone ---
+[INFO] ------------------------------------------------------------------------
+[INFO] TEST DIFFCOV ANALYSIS
+[INFO] ninja-standaloneninja-standalone
+[INFO] ------------------------------------------------------------------------
+[INFO] Using covFile: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-standalone/target/diffcov.log
+[INFO] Using difFile: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/.diffCache
+[INFO] No test data found
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ninja-standalone ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ninja-test-utilities 2.2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ninja-test-utilities ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-test-utilities/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ninja-test-utilities ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ninja-test-utilities ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-test-utilities/src/test/resources
+[INFO] 
+[INFO] --- deflaker-maven-plugin:1.4:diff (deflaker-diff) @ ninja-test-utilities ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ninja-test-utilities ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ ninja-test-utilities ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test-rerunfailures) @ ninja-test-utilities ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- deflaker-maven-plugin:1.4:report (deflaker-report-tests) @ ninja-test-utilities ---
+[INFO] ------------------------------------------------------------------------
+[INFO] TEST DIFFCOV ANALYSIS
+[INFO] ninja-test-utilitiesninja-test-utilities
+[INFO] ------------------------------------------------------------------------
+[INFO] Using covFile: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-test-utilities/target/diffcov.log
+[INFO] Using difFile: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/.diffCache
+[INFO] No test data found
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ ninja-test-utilities ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ninja-maven-plugin 2.2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ninja-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-maven-plugin/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ ninja-maven-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.2:descriptor (default-descriptor) @ ninja-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[WARNING] ninja.NinjaRunMojo#mavenProject:
+[WARNING]   The syntax
+[WARNING]     @parameter expression="${property}"
+[WARNING]   is deprecated, please use
+[WARNING]     @parameter property="property"
+[WARNING]   instead.
+[INFO] Mojo extractor for language: java found 1 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[INFO] Mojo extractor for language: java-annotations found 0 mojo descriptors.
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.2:descriptor (mojo-descriptor) @ ninja-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[WARNING] ninja.NinjaRunMojo#mavenProject:
+[WARNING]   The syntax
+[WARNING]     @parameter expression="${property}"
+[WARNING]   is deprecated, please use
+[WARNING]     @parameter property="property"
+[WARNING]   instead.
+[INFO] Mojo extractor for language: java found 1 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[INFO] Mojo extractor for language: java-annotations found 0 mojo descriptors.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ninja-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-maven-plugin/src/test/resources
+[INFO] 
+[INFO] --- deflaker-maven-plugin:1.4:diff (deflaker-diff) @ ninja-maven-plugin ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ninja-maven-plugin ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ ninja-maven-plugin ---
+[INFO] Surefire report directory: /Users/lusirui/Documents/research/PL/Summer/DeFlakerTest/ninja/ninja-maven-plugin/target/surefire-reports
+[INFO] Using configured provider org.deflaker.surefire.ReExecJunit4Provider
+[INFO] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+
+
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] ninja .............................................. SUCCESS [  0.002 s]
+[INFO] ninja-core ......................................... SUCCESS [  6.024 s]
+[INFO] ninja-servlet ...................................... SUCCESS [  1.408 s]
+[INFO] ninja-standalone ................................... SUCCESS [  0.034 s]
+[INFO] ninja-test-utilities ............................... SUCCESS [  0.071 s]
+[INFO] ninja-maven-plugin ................................. FAILURE [  2.908 s]
+[INFO] ninja-servlet-integration-test ..................... SKIPPED
+[INFO] ninja-servlet-jpa-blog-integration-test ............ SKIPPED
+[INFO] ninja-servlet-jpa-blog-archetype ................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.589 s
+[INFO] Finished at: 2019-03-04T11:41:04+08:00
+[INFO] Final Memory: 46M/840M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.18:test (default-test) on project ninja-maven-plugin: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.18:test failed: There was an error in the forked process
+[ERROR] java.lang.NoClassDefFoundError: org/junit/runner/notification/RunListener
+[ERROR] at java.lang.Class.getDeclaredConstructors0(Native Method)
+[ERROR] at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+[ERROR] at java.lang.Class.getConstructor0(Class.java:3075)
+[ERROR] at java.lang.Class.getConstructor(Class.java:1825)
+[ERROR] at org.apache.maven.surefire.util.ReflectionUtils.getConstructor(ReflectionUtils.java:76)
+[ERROR] at org.apache.maven.surefire.util.ReflectionUtils.instantiateOneArg(ReflectionUtils.java:129)
+[ERROR] at org.apache.maven.surefire.booter.ForkedBooter.createProviderInCurrentClassloader(ForkedBooter.java:230)
+[ERROR] at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:199)
+[ERROR] at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+[ERROR] at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+[ERROR] Caused by: java.lang.ClassNotFoundException: org.junit.runner.notification.RunListener
+[ERROR] at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+[ERROR] at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+[ERROR] at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:338)
+[ERROR] at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+[ERROR] ... 10 more
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :ninja-maven-plugin
