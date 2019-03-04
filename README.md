@@ -49,12 +49,14 @@ else
 fi
 ```
 
+The data is generated on macOS 10.14.4 Beta(18E194d) with maven 3.3.9 and Oracle JDK 1.8.0_162. The running time is about 17 hrs.
+
 ## Analyzing the data
 If we consider all test failures, including those who fails both on the previous commits and the current commits:
 
 For the old data,
 ```bash
-grep 'FLAKY' logs-old/failed-* | python3 summerize.py
+grep 'FLAKY' logs-old/failed-* | python3 summarize.py
 ```
 gives
 ```text
@@ -81,7 +83,7 @@ controllers.ApplicationControllerTest.testThatHomepageWorks
 
 For the new data,
 ```bash
-grep 'FLAKY' logs/failed-* | python3 summerize.py
+grep 'FLAKY' logs/failed-* | python3 summarize.py
 ```
 gives
 ```text
@@ -123,10 +125,10 @@ It seems that Rerun detects more flaky tests(although they are all the same test
 Maybe Ninja is not a good example here? Perhaps the reason for this strange phenomenon is that ninja's test suite depends on some external state and `mvn clean` clears it. I chose to test on it just because I didn't have enough computational power, and the test suite of ninja is relatively small, so I can evaluate DeFlaker on more commits.
 
 ## The questions
-1. Why are the results of the two scripts so different? The only difference of the two scripts that may cause this is the `mvn clean`. But it won't affect the running of a single test case.
-2. Do I misunderstand the meaning of a previous commit? Is it the previous commit of the git repo or the previous commit in the csv file?
+1. Why are the results of the two scripts so different? The only related difference of the two scripts is the `mvn clean`.
+2. Do I misunderstand the meaning of a "previous commit"? Is it the previous commit in the git repo or the previous commit in the csv file?
 3. What's the default strategy of the current implementation? I found that all flaky tests detected by rerun are reported as
-   > FLAKY>> Test " + testKey + " was found to be flaky by rerunning it in the same JVM! It failed the first time, then eventually passed.
+   > "FLAKY>> Test " + testKey + " was found to be flaky by rerunning it in the same JVM! It failed the first time, then eventually passed."
    
    Will the `default-test-rerunfailures` phase rerun the tests in a new JVM? If so, why don't DeFlaker report something like "by rerunning it in the fresh JVM"?
    
