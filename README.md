@@ -54,7 +54,7 @@ If we consider all test failures, including those who fails both on the previous
 
 For the old data,
 ```bash
-grep 'FLAKY' logs-old/failed-* | python3 filter.py
+grep 'FLAKY' logs-old/failed-* | python3 summerize.py
 ```
 gives
 ```text
@@ -81,7 +81,7 @@ controllers.ApplicationControllerTest.testThatHomepageWorks
 
 For the new data,
 ```bash
-grep 'FLAKY' logs/failed-* | python3 filter.py
+grep 'FLAKY' logs/failed-* | python3 summerize.py
 ```
 gives
 ```text
