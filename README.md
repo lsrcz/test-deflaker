@@ -50,7 +50,7 @@ fi
 ```
 
 ## Analyzing the data
-Consider all test failures, including those fails both on the previous commit and the current commits:
+If we consider all test failures, including those who fails both on the previous commits and the current commits:
 
 For the old data,
 ```bash
@@ -102,7 +102,7 @@ controllers.ApiControllerDocTest.testGetAndPostArticleViaJson
 conf.RoutesTest.testReverseRoutingWithArrayAndQueryParameters
 ```
 
-4 tests are no longer detected to be flaky in the new data. This may be the reason why DeFlaker's results are getting lesser. But I don't know why this should happen.
+4 tests are no longer detected to be flaky in the new data. This may be the reason why DeFlaker's results are getting less. But I don't know why this should happen.
 ```bash
 $ grep 'FLAKY' logs-old/failed-* | grep -E "FluentLenium|example" | wc
      69    1064   14452
@@ -119,6 +119,9 @@ $ python3 analyze.py
 
 It seems that Rerun detects more flaky tests(although they are all the same test case `controllers.ApplicationControllerTest.testThatHomepageWorks`).
 
+## Limitations
+Maybe Ninja is not a good example here? Perhaps the reason for this strange phenomenon is that ninja's test suite depends on some external state and `mvn clean` clears it. I chose to test on it just because I didn't have enough computational power, and the test suite of ninja is relatively small, so I can evaluate DeFlaker on more commits.
+
 ## The questions
 1. Why are the results of the two scripts so different? The only difference of the two scripts that may cause this is the `mvn clean`. But it won't affect the running of a single test case.
 2. Do I misunderstand the meaning of a previous commit? Is it the previous commit of the git repo or the previous commit in the csv file?
@@ -127,8 +130,8 @@ It seems that Rerun detects more flaky tests(although they are all the same test
    
    Will the `default-test-rerunfailures` phase rerun the tests in a new JVM? If so, why don't DeFlaker report something like "by rerunning it in the fresh JVM"?
    
-   If not, it seems that the current implementation re-runs each test 10 times in the same JVM, although they are divided into two groups.
+   If not, it seems that the current implementation reruns each test for 10 times in the same JVM, although they are divided into two groups.
    
 ## Minor bugs
-1. DeFlaker won't work with maven 3.6.0
-2. DeFlaker may break the intellij IDEA's unit test functionalities.
+1. DeFlaker won't work with maven 3.6.0. [Issue](https://github.com/gmu-swe/deflaker/issues/3).
+2. DeFlaker may break the intellij IDEA's unit test functionalities. [Issue](https://github.com/gmu-swe/deflaker/issues/4).
