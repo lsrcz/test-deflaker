@@ -118,7 +118,9 @@ def main():
         totCnt += len(tot)
         rerunCnt += len(rerun)
         deflakerCnt += len(deflaker)
-    print(totCnt, rerunCnt, deflakerCnt)
+    print("Total failure: ", totCnt)
+    print("Rerun: ", rerunCnt)
+    print("DeFlaker: ", deflakerCnt)
 
 if __name__ == '__main__':
     main()
