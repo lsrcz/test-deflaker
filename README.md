@@ -104,11 +104,12 @@ controllers.ApiControllerDocTest.testGetAndPostArticleViaJson
 conf.RoutesTest.testReverseRoutingWithArrayAndQueryParameters
 ```
 
-Compared to the old data, DeFlaker detected less flaky tests in the new data. And notice that 4 tests are no longer detected.
+Compared to the old data, DeFlaker detected less flaky tests in the new data. And notice that 4 tests(`example.*`, `controllers.ApplicationControllerFluentLeniumTest.testThatHomepageWorks`) are no longer detected.
 ```bash
 $ grep 'FLAKY' logs-old/failed-* | grep -E "FluentLenium|example" | wc
      69    1064   14452
 ```
+There are 69 such tests in the old data, so it shouldn't be random. With these 69 tests, DeFlaker's results on the two data sets should not be that different.
 
 If only consider the new test failures, here is the result:
 ```bash
@@ -124,15 +125,17 @@ It seems that Rerun detects more flaky tests in this scenerio(although they are 
 ## Limitations
 Maybe Ninja is not a good example here? I chose to test on it just because I didn't have enough computational power, and the test suite of ninja is relatively small, so I can evaluate DeFlaker on more commits.
 
+I tried to find projects on GitHub by searching 'flaky' in the issues. But most of the projects I found required a long time to run the test suite, so I didn't try to run DeFlaker on them.
+
 ## The questions
-1. Why are the results of the two scripts so different? The only related difference of the two scripts is the `mvn clean`. Maybe ninja is not a good example here? Perhaps the reason for this phenomenon is that ninja's test suite depends on some external state and `mvn clean` clears it.
+1. Why are the results of the two scripts so different? Why some tests are no longer flaky? The only related difference of the two scripts is the `mvn clean`. Maybe ninja is not a good example here? Perhaps the reason for this phenomenon is that ninja's test suite depends on some external state and `mvn clean` clears it.
 2. What's the default strategy of the current implementation? I found that all flaky tests detected by rerun are reported as
    > "FLAKY>> Test " + testKey + " was found to be flaky by rerunning it in the same JVM! It failed the first time, then eventually passed."
    
    Will the `default-test-rerunfailures` phase rerun the tests in a new JVM? If so, why don't DeFlaker report something like "by rerunning it in the fresh JVM"?
    
    If not, it seems that the current implementation reruns each test for 10 times in the same JVM, although they are divided into two groups.
-3. Do I misunderstand the meaning of a "previous commit"? Is it the previous commit in the git repo or the previous commit in the csv file?
+3. Did I misunderstand the meaning of a "previous commit"? I thought it meant the previous commit in the git repo. Or 
 
 ## Minor bugs of DeFlaker
 1. DeFlaker won't work with maven 3.6.0. [Issue](https://github.com/gmu-swe/deflaker/issues/3).
