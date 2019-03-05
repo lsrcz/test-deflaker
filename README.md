@@ -127,6 +127,8 @@ Maybe Ninja is not a good example here? I chose to test on it just because I did
 
 I tried to find projects on GitHub by searching 'flaky' in the issues. But most of the projects I found required a long time to run the test suite, so I didn't try to run DeFlaker on them.
 
+Running on new projects requires only minor modifications to the script and more CPU time, so I think running on a single project for demonstration is reasonable.
+
 ## The questions
 1. Why are the results of the two scripts so different? Why some tests are no longer flaky? The only related difference of the two scripts is the `mvn clean`. Maybe ninja is not a good example here? Perhaps the reason for this phenomenon is that ninja's test suite depends on some external state and `mvn clean` clears it.
 2. What's the default strategy of the current implementation? I found that all flaky tests detected by rerun are reported as
