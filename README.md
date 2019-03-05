@@ -123,7 +123,7 @@ $ python3 analyze.py
 It seems that Rerun detects more flaky tests in this scenerio(although they are all the same test case `controllers.ApplicationControllerTest.testThatHomepageWorks`).
 
 ## Limitations
-Maybe Ninja is not a good example here? I chose to test on it just because I didn't have enough computational power, and the test suite of ninja is relatively small, so I can evaluate DeFlaker on more commits.
+Maybe Ninja is not a good example here? I chose to test on it just because I didn't have enough computational power, and the test suite of ninja is relatively small, so I could evaluate DeFlaker on more commits.
 
 I tried to find projects on GitHub by searching 'flaky' in the issues. But most of the projects I found required a long time to run the test suite, so I didn't try to run DeFlaker on them.
 
