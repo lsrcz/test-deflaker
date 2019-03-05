@@ -104,7 +104,7 @@ controllers.ApiControllerDocTest.testGetAndPostArticleViaJson
 conf.RoutesTest.testReverseRoutingWithArrayAndQueryParameters
 ```
 
-4 tests are no longer detected to be flaky in the new data. This may be the reason why DeFlaker's results are getting less. But I don't know why this should happen.
+Compared to the old data, DeFlaker detected less flaky tests in the new data. And notice that 4 tests are no longer detected.
 ```bash
 $ grep 'FLAKY' logs-old/failed-* | grep -E "FluentLenium|example" | wc
      69    1064   14452
@@ -119,7 +119,7 @@ $ python3 analyze.py
 ('DeFlaker: ', 38)
 ```
 
-It seems that Rerun detects more flaky tests(although they are all the same test case `controllers.ApplicationControllerTest.testThatHomepageWorks`).
+It seems that Rerun detects more flaky tests in this scenerio(although they are all the same test case `controllers.ApplicationControllerTest.testThatHomepageWorks`).
 
 ## Limitations
 Maybe Ninja is not a good example here? Perhaps the reason for this strange phenomenon is that ninja's test suite depends on some external state and `mvn clean` clears it. I chose to test on it just because I didn't have enough computational power, and the test suite of ninja is relatively small, so I can evaluate DeFlaker on more commits.
@@ -133,7 +133,7 @@ Maybe Ninja is not a good example here? Perhaps the reason for this strange phen
    
    If not, it seems that the current implementation reruns each test for 10 times in the same JVM, although they are divided into two groups.
 3. Do I misunderstand the meaning of a "previous commit"? Is it the previous commit in the git repo or the previous commit in the csv file?
-   
-## Minor bugs
+
+## Minor bugs of DeFlaker
 1. DeFlaker won't work with maven 3.6.0. [Issue](https://github.com/gmu-swe/deflaker/issues/3).
 2. DeFlaker may break the intellij IDEA's unit test functionalities. [Issue](https://github.com/gmu-swe/deflaker/issues/4).
