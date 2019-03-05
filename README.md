@@ -111,7 +111,7 @@ $ grep 'FLAKY' logs-old/failed-* | grep -E "FluentLenium|example" | wc
 ```
 There are 69 such tests in the old data, so it shouldn't be random. With these 69 tests, DeFlaker's results on the two data sets should not be that different.
 
-If only consider the new test failures, here is the result:
+If we only consider the new test failures, here is the result:
 ```bash
 $ python3 analyze.py
 ... (irrelevant lines)
@@ -135,7 +135,7 @@ I tried to find projects on GitHub by searching 'flaky' in the issues. But most 
    Will the `default-test-rerunfailures` phase rerun the tests in a new JVM? If so, why don't DeFlaker report something like "by rerunning it in the fresh JVM"?
    
    If not, it seems that the current implementation reruns each test for 10 times in the same JVM, although they are divided into two groups.
-3. Did I misunderstand the meaning of a "previous commit"? I thought it meant the previous commit in the git repo. Or 
+3. Did I misunderstand the meaning of a "previous commit"? I thought it meant the previous commit in the git repo.
 
 ## Minor bugs of DeFlaker
 1. DeFlaker won't work with maven 3.6.0. [Issue](https://github.com/gmu-swe/deflaker/issues/3).
