@@ -104,7 +104,7 @@ controllers.ApiControllerDocTest.testGetAndPostArticleViaJson
 conf.RoutesTest.testReverseRoutingWithArrayAndQueryParameters
 ```
 
-Compared to the old data, DeFlaker detected less flaky tests in the new data. And notice that 4 tests(`example.*`, `controllers.ApplicationControllerFluentLeniumTest.testThatHomepageWorks`) are no longer detected.
+Compared to the old data, DeFlaker detected less flaky tests in the new data. And notice that 4 tests(`example.*`, `controllers.ApplicationControllerFluentLeniumTest.testThatHomepageWorks`) are no longer detected. I found that `example.*` tests are `FluentLenium` tests too so they may share the same root cause.
 ```bash
 $ grep 'FLAKY' logs-old/failed-* | grep -E "FluentLenium|example" | wc
      69    1064   14452
