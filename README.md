@@ -122,10 +122,10 @@ $ python3 analyze.py
 It seems that Rerun detects more flaky tests in this scenerio(although they are all the same test case `controllers.ApplicationControllerTest.testThatHomepageWorks`).
 
 ## Limitations
-Maybe Ninja is not a good example here? Perhaps the reason for this strange phenomenon is that ninja's test suite depends on some external state and `mvn clean` clears it. I chose to test on it just because I didn't have enough computational power, and the test suite of ninja is relatively small, so I can evaluate DeFlaker on more commits.
+Maybe Ninja is not a good example here? I chose to test on it just because I didn't have enough computational power, and the test suite of ninja is relatively small, so I can evaluate DeFlaker on more commits.
 
 ## The questions
-1. Why are the results of the two scripts so different? The only related difference of the two scripts is the `mvn clean`.
+1. Why are the results of the two scripts so different? The only related difference of the two scripts is the `mvn clean`. Maybe ninja is not a good example here? Perhaps the reason for this phenomenon is that ninja's test suite depends on some external state and `mvn clean` clears it.
 2. What's the default strategy of the current implementation? I found that all flaky tests detected by rerun are reported as
    > "FLAKY>> Test " + testKey + " was found to be flaky by rerunning it in the same JVM! It failed the first time, then eventually passed."
    
